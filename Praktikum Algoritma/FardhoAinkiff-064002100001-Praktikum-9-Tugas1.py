@@ -2,13 +2,13 @@ print ("Selamat datang di Program Biodata")
 print ("=================================")
 
 def write(string):    
-    file = open("biodata01.txt", "w")
+    file = open("biodata03.txt", "w")
     file.write(str(string))
     file.close()
     
 
 def read():   
-    file = open("biodata01.txt", "r")
+    file = open("biodata03.txt", "r")
     biodata = file.read()
     print(biodata)
 
