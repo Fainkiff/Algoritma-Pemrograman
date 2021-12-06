@@ -1,3 +1,7 @@
+Nama : Fardho Ainkiff Rasya
+NIM  : 064002100001
+
+list = [1,5,2,7,3]
 def bubblesort(list):
     count = 0
     for i in range(len(list)-1):
